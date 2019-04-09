@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer-content-blocker",
+  "version": "0.1.0",
+  "description": "Use Puppeteer faster by block loading certain file/media types",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "compile:watch": "tsc -p . -w",
+    "postinstall": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "media blocking",
+    "file blocking",
+    "blocking"
+  ],
+  "author": "Tobias Holler",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiasholler/puppeteer-content-blocker.git"
+  },
+  "dependencies": {
+    "@types/puppeteer": "^1.12.3",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {
+    "puppeteer": "^1.14.0"
+  }
+}
